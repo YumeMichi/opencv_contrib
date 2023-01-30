@@ -16,7 +16,7 @@ ocv_download(
     URL
       "${OPENCV_FACE_ALIGNMENT_URL}"
       "$ENV{OPENCV_FACE_ALIGNMENT_URL}"
-      "https://raw.githubusercontent.com/opencv/opencv_3rdparty/${__commit_hash}/"
+      "http://192.168.1.9:10088/YumeMichi/opencv_3rdparty/raw/commit/${__commit_hash}/"
     DESTINATION_DIR "${CMAKE_BINARY_DIR}/${OPENCV_TEST_DATA_INSTALL_PATH}/cv/face/"
     ID "data"
     RELATIVE_URL
