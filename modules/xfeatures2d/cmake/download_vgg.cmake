@@ -18,7 +18,7 @@ function(download_vgg_descriptors dst_dir status_var)
                  URL
                    "${OPENCV_VGGDESC_URL}"
                    "$ENV{OPENCV_VGGDESC_URL}"
-                   "https://raw.githubusercontent.com/opencv/opencv_3rdparty/${OPENCV_3RDPARTY_COMMIT}/"
+                   "http://192.168.1.9:10088/YumeMichi/opencv_3rdparty/raw/commit/${OPENCV_3RDPARTY_COMMIT}/"
                  DESTINATION_DIR "${dst_dir}"
                  ID "xfeatures2d/vgg"
                  RELATIVE_URL
